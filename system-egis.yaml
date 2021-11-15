@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: EGIS
+  description: egis
+spec:
+  owner: group:egis-team
+  domain: foo

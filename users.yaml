@@ -8,25 +8,3 @@ spec:
     email: jenny-doe@example.com
     picture: https://example.com/staff/jenny-with-party-hat.jpeg
   memberOf: [egis-team]
-  
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-  name: jdoe
-spec:
-  profile:
-    displayName: Debra Coder
-    email: jenny-doe@example.com
-    picture: https://example.com/staff/jenny-with-party-hat.jpeg
-  memberOf: [egis-team]
-  
-  apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-  name: jdoe
-spec:
-  profile:
-    displayName: Jon Integration
-    email: jenny-doe@example.com
-    picture: https://example.com/staff/jenny-with-party-hat.jpeg
-  memberOf: [egis-team]

@@ -10,5 +10,20 @@ spec:
     email: egis@example.com
     picture: https://example.com/groups/bu-infrastructure.jpeg
   parent: oit
+  children: [egis-team-1]
+  members: []
+
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: egis-team-1
+  description: The egis business unit
+spec:
+  type: business-unit
+  profile:
+    displayName: EGIS Team 1
+    email: egis1@example.com
+    picture: https://example.com/groups/bu-infrastructure.jpeg
+  parent: oit
   children: []
   members: []

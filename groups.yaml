@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: egis
+  name: egis-team
   description: The egis business unit
 spec:
   type: business-unit
